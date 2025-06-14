@@ -1,0 +1,1 @@
+// When we are using LocalStorage
