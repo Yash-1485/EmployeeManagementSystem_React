@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Login = () => {
+const Login = ({handleLogin}) => {
 
     const [email, setEmail]=useState("");
     const [passsword, setPassword]=useState("");
@@ -9,7 +9,7 @@ const Login = () => {
         e.preventDefault();
 
         // console.log(email,passsword);
-
+        handleLogin(email,passsword);
         setEmail("");
         setPassword("");
     }

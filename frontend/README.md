@@ -11,6 +11,7 @@
           ├──AdminDashboard.jsx
           └──EmployeeDashboard.jsx
         /other
+          ├──AllTasks.jsx
           ├──CreateTask.jsx
           ├──Header.jsx
           ├──TaskListNumbers.jsx
